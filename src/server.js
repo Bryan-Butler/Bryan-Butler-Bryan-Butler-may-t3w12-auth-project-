@@ -1,12 +1,12 @@
-const express = require('express');
+const express = require("express");
 
 const app = express();
 
 app.use(express.json());
 
-app.length('/', (request, response) => {
+app.get("/", (request, response) => {
     response.json({
-        message: 'hello world'
+        message: "Hello world"
     })
 })
 
