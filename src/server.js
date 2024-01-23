@@ -10,7 +10,7 @@ app.get("/", (request, response) => {
     })
 });
 
-const userRouter = require('../controllers/UserController')
+const userRouter = require('./controllers/UserController')
 app.use
 
 module.exports = {
